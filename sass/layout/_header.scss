@@ -25,12 +25,14 @@
   }
   
   .busca {
+    display: flex;
+    align-items: center;
 
     input[type=text] {
       background-color: #FBE1C8;
       border: none;
-      border-radius: 5px;
-      width: 520px;
+      border-radius: 5px 0 0 5px;
+      width: 476px;
       height: 44px;
       padding-left: 20px;
       margin-left: 32px;
@@ -38,6 +40,21 @@
       &::placeholder {
         color: $orange-dark;
         font-size: 14px;
+      }
+    }
+
+    .pesquisar {
+      width: 44px;
+      height: 44px;
+      border: none;
+      background-color: $orange;
+      margin-left: 0;
+      cursor: pointer;
+      border-radius: 0 5px 5px 0;
+      transition: 0.1s ease-in;
+
+      &:hover {
+        background-color: $orange-dark;
       }
     }
   }

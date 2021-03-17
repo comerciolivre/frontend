@@ -147,17 +147,31 @@ body {
       height: 24px;
       padding-left: 14px;
       margin-top: 8px; }
-  #head-main .busca input[type=text] {
-    background-color: #FBE1C8;
-    border: none;
-    border-radius: 5px;
-    width: 520px;
-    height: 44px;
-    padding-left: 20px;
-    margin-left: 32px; }
-    #head-main .busca input[type=text]::placeholder {
-      color: #FF6404;
-      font-size: 14px; }
+  #head-main .busca {
+    display: flex;
+    align-items: center; }
+    #head-main .busca input[type=text] {
+      background-color: #FBE1C8;
+      border: none;
+      border-radius: 5px 0 0 5px;
+      width: 476px;
+      height: 44px;
+      padding-left: 20px;
+      margin-left: 32px; }
+      #head-main .busca input[type=text]::placeholder {
+        color: #FF6404;
+        font-size: 14px; }
+    #head-main .busca .pesquisar {
+      width: 44px;
+      height: 44px;
+      border: none;
+      background-color: #FD7E02;
+      margin-left: 0;
+      cursor: pointer;
+      border-radius: 0 5px 5px 0;
+      transition: 0.1s ease-in; }
+      #head-main .busca .pesquisar:hover {
+        background-color: #FF6404; }
   #head-main button {
     margin-left: 32px; }
   #head-main .icones {
