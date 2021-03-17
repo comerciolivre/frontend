@@ -1,0 +1,26 @@
+#promo-top {
+  background-color: #f3f3f3;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .promo-top-container {
+    width: auto;
+    display: flex;
+    align-items: center;
+
+    h4{
+      color: $purple;
+      text-transform: uppercase;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    button {
+      margin-left: 32px;
+    }
+  }
+}

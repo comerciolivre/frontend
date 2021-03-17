@@ -41,6 +41,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
 .button {
   border-radius: 5px;
   border: none;
@@ -52,7 +55,7 @@ table {
   height: 40px;
   color: #fff;
   font-weight: 700;
-  transition: 0.2s ease-in; }
+  transition: 0.15s ease-in; }
   .button-normal-sm:hover {
     background-color: #106DF9; }
 
@@ -62,7 +65,7 @@ table {
   height: 40px;
   color: #fff;
   font-weight: 700;
-  transition: 0.2s ease-in; }
+  transition: 0.15s ease-in; }
   .button-normal-lg:hover {
     background-color: #106DF9; }
 
@@ -73,7 +76,7 @@ table {
   color: #fff;
   font-weight: 700;
   font-size: 18px;
-  transition: 0.2s ease-in; }
+  transition: 0.15s ease-in; }
   .button-comprar:hover {
     background-color: #106DF9; }
 
@@ -84,7 +87,7 @@ table {
   color: #3483FA;
   font-weight: 700;
   font-size: 18px;
-  transition: 0.2s ease-in; }
+  transition: 0.15s ease-in; }
   .button-carrinho:hover {
     border: solid 2px #106DF9;
     color: #106DF9; }
@@ -95,7 +98,8 @@ table {
   height: 56px;
   color: #fff;
   font-weight: 700;
-  font-size: 18px; }
+  font-size: 18px;
+  transition: 0.15s ease-in; }
   .button-banner:hover {
     background-color: #FF6404; }
 
@@ -105,11 +109,81 @@ table {
   height: 24px;
   color: #fff;
   font-weight: 700;
-  font-size: 12px; }
+  font-size: 12px;
+  transition: 0.15s ease-in; }
   .button-promo-top:hover {
+    background-color: #FF6404; }
+
+.button-minha-conta {
+  background-color: #FD7E02;
+  width: 176px;
+  height: 44px;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.15s ease-in; }
+  .button-minha-conta:hover {
     background-color: #FF6404; }
 
 .grid {
   width: 1226px;
-  margin: 0 auto;
-  background-color: blueviolet; }
+  margin: 0 auto; }
+
+#head-main {
+  height: 148px;
+  display: flex;
+  align-items: center; }
+  #head-main .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #head-main .logo img {
+      width: 101px;
+      height: 72px; }
+    #head-main .logo input[type=text] {
+      border: solid 1px #FD7E02;
+      border-radius: 5px;
+      width: 176px;
+      height: 24px;
+      padding-left: 14px;
+      margin-top: 8px; }
+  #head-main .busca input[type=text] {
+    background-color: #FBE1C8;
+    border: none;
+    border-radius: 5px;
+    width: 520px;
+    height: 44px;
+    padding-left: 20px;
+    margin-left: 32px; }
+    #head-main .busca input[type=text]::placeholder {
+      color: #FF6404;
+      font-size: 14px; }
+  #head-main button {
+    margin-left: 32px; }
+  #head-main .icones {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    #head-main .icones .alerta {
+      margin: 14px; }
+    #head-main .icones .carrinho {
+      margin-left: 6px; }
+
+#promo-top {
+  background-color: #f3f3f3;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #promo-top .promo-top-container {
+    width: auto;
+    display: flex;
+    align-items: center; }
+    #promo-top .promo-top-container h4 {
+      color: #421286;
+      text-transform: uppercase; }
+      #promo-top .promo-top-container h4 span {
+        font-weight: 700; }
+    #promo-top .promo-top-container button {
+      margin-left: 32px; }
