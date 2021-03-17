@@ -1,6 +1,115 @@
-body {
-  font-family: Arial, Helvetica, sans-serif; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
-.container {
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.button {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer; }
+
+.button-normal-sm {
+  background-color: #3483FA;
+  width: 176px;
+  height: 40px;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.2s ease-in; }
+  .button-normal-sm:hover {
+    background-color: #106DF9; }
+
+.button-normal-lg {
+  background-color: #3483FA;
+  width: 384px;
+  height: 40px;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.2s ease-in; }
+  .button-normal-lg:hover {
+    background-color: #106DF9; }
+
+.button-comprar {
+  background-color: #3483FA;
+  width: 248px;
+  height: 64px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  transition: 0.2s ease-in; }
+  .button-comprar:hover {
+    background-color: #106DF9; }
+
+.button-carrinho {
+  border: solid 2px #3483FA;
+  width: 248px;
+  height: 64px;
+  color: #3483FA;
+  font-weight: 700;
+  font-size: 18px;
+  transition: 0.2s ease-in; }
+  .button-carrinho:hover {
+    border: solid 2px #106DF9;
+    color: #106DF9; }
+
+.button-banner {
+  background-color: #FD7E02;
+  width: 280px;
+  height: 56px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px; }
+  .button-banner:hover {
+    background-color: #FF6404; }
+
+.button-promo-top {
+  background-color: #FD7E02;
+  width: 114px;
+  height: 24px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px; }
+  .button-promo-top:hover {
+    background-color: #FF6404; }
+
+.grid {
   width: 1226px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: blueviolet; }
