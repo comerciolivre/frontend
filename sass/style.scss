@@ -1,0 +1,19 @@
+// base
+@import 'base/reset.scss';
+
+// componentes
+@import 'componentes/button';
+
+// resumo
+@import 'resumo/function';
+@import 'resumo/mixin';
+@import 'resumo/variables';
+
+// layout
+@import 'layout/grid';
+@import 'layout/forms';
+@import 'layout/header';
+@import 'layout/footer';
+
+// paginas
+@import 'paginas/home';
