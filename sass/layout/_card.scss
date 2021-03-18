@@ -1,0 +1,56 @@
+
+
+#card {
+
+  a {
+    text-decoration: none;
+    transition: 0.2s; 
+
+    margin-top: 48px;
+
+    width: 280px;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .card-top {
+      height: 258px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;    
+    }
+
+    .card-botton {
+      margin: 0 12px 12px 12px;
+
+      .preco-antigo {
+        color: $gray-5;
+      }
+
+      .container-comprar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .preco {
+          color: $gray-1;
+          font-size: 24px;
+          font-weight: 700;
+        }
+      }
+
+      .nome-card-produto {
+        color: $gray-2;
+        @include body-1;
+        margin-top: 14px;
+      }
+    }
+
+    &:hover {
+      box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2);
+      transform: scale(1.02);
+    }
+  }
+}

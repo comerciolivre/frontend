@@ -101,3 +101,17 @@
     background-color: $orange-dark;
   }  
 }
+
+.button-card-comprar { //botão do card
+  background-color: $orange;
+  width: 100px;
+  height: 28px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  transition: 0.15s ease-in;
+
+  &:hover {
+    background-color: $orange-dark;
+  }
+}

@@ -125,6 +125,17 @@ body {
   .button-minha-conta:hover {
     background-color: #FF6404; }
 
+.button-card-comprar {
+  background-color: #FD7E02;
+  width: 100px;
+  height: 28px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  transition: 0.15s ease-in; }
+  .button-card-comprar:hover {
+    background-color: #FF6404; }
+
 .grid {
   width: 1226px;
   margin: 0 auto; }
@@ -231,6 +242,43 @@ nav {
         nav ul li:nth-child(1) a:hover {
           border-bottom: none; }
 
+#card a {
+  text-decoration: none;
+  transition: 0.2s;
+  margin-top: 48px;
+  width: 280px;
+  height: 392px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  #card a .card-top {
+    height: 258px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #card a .card-botton {
+    margin: 0 12px 12px 12px; }
+    #card a .card-botton .preco-antigo {
+      color: #AEAEAE; }
+    #card a .card-botton .container-comprar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      #card a .card-botton .container-comprar .preco {
+        color: #2B2833;
+        font-size: 24px;
+        font-weight: 700; }
+    #card a .card-botton .nome-card-produto {
+      color: #525252;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      margin-top: 14px; }
+  #card a:hover {
+    box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2);
+    transform: scale(1.02); }
+
 #promo-top {
   background-color: #f3f3f3;
   height: 40px;
@@ -248,3 +296,7 @@ nav {
         font-weight: 700; }
     #promo-top .promo-top-container button {
       margin-left: 32px; }
+
+.destaque {
+  display: flex;
+  justify-content: space-between; }
