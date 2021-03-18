@@ -53,14 +53,28 @@
       border-radius: 0 5px 5px 0;
       transition: 0.1s ease-in;
 
+      img {
+        width: 22px;
+        height: 22px;
+      }
+
       &:hover {
         background-color: $orange-dark;
       }
     }
   }
 
-  button {
+  label {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
     margin-left: 32px;
+
+    .icone-perfil {
+      margin-right: 8px;
+    }
   }
 
   .icones {
@@ -68,11 +82,31 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
     .alerta {
       margin: 14px;
+
+      #alerta-svg {
+        fill: $orange;
+        transition: 0.2s;
+
+        &:hover {
+          fill: $orange-dark;
+        }
+      }
     }
+
     .carrinho {
       margin-left: 6px;
+
+      #carrinho-svg {
+        fill: $orange;
+        transition: 0.2s;
+
+        &:hover {
+          fill: $orange-dark;
+        }
+      }
     }
   }
 }
