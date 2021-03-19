@@ -24,7 +24,8 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
-  line-height: 1; }
+  line-height: 1;
+  padding-bottom: 10rem; }
 
 ol, ul {
   list-style: none; }
@@ -279,6 +280,34 @@ nav {
     box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2);
     transform: scale(1.02); }
 
+.card-categoria-link {
+  text-decoration: none;
+  cursor: pointer; }
+  .card-categoria-link .card_categoria {
+    width: 176px;
+    height: 176px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s; }
+    .card-categoria-link .card_categoria h5 {
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 500;
+      color: #8D8C8C;
+      margin-top: 16px; }
+    .card-categoria-link .card_categoria:hover {
+      transform: scale(1.03);
+      background-color: #FD7E02;
+      box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.3); }
+      .card-categoria-link .card_categoria:hover h5 {
+        color: white; }
+      .card-categoria-link .card_categoria:hover .hover-categoria-sugerida {
+        fill: white; }
+
 #promo-top {
   background-color: #f3f3f3;
   height: 40px;
@@ -300,3 +329,122 @@ nav {
 .destaque {
   display: flex;
   justify-content: space-between; }
+
+.banner {
+  width: 1440px;
+  height: 438px;
+  background-color: #FFAC00;
+  background-image: url(../../assets/img/banner-grande-1.png); }
+
+.oferta-semana {
+  height: 552px;
+  display: flex;
+  flex-direction: column; }
+  .oferta-semana h2 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 300;
+    color: #6B6B6B; }
+  .oferta-semana .container-box {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between; }
+    .oferta-semana .container-box .box-oferta-semana {
+      width: 384px;
+      height: 286px;
+      background-color: #FEA04E; }
+
+.destaque {
+  display: flex;
+  flex-direction: column; }
+  .destaque h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 300;
+    color: #6B6B6B; }
+  .destaque .produtos-destaque {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px; }
+
+.banner-meio {
+  margin-top: 80px;
+  width: 1440px;
+  height: 286px;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(../../assets/img/banner-pequeno-2.png); }
+  .banner-meio button {
+    margin-bottom: 38px; }
+
+.produtos-botton-banner {
+  margin-top: 80px; }
+  .produtos-botton-banner .produtos-botton {
+    display: flex;
+    justify-content: space-between; }
+
+.outras-ofertas {
+  margin-top: 80px; }
+  .outras-ofertas h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 300;
+    color: #6B6B6B; }
+  .outras-ofertas .container-box-outras-ofertas {
+    display: flex;
+    justify-content: space-between; }
+    .outras-ofertas .container-box-outras-ofertas .box-outras-ofertas {
+      margin-top: 36px;
+      width: 592px;
+      height: 286px;
+      background-color: #FEA04E; }
+
+.categorias-sugeridas {
+  margin-top: 80px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background-color: #F2EEF7; }
+  .categorias-sugeridas .container-categorias-sugeridas h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 300;
+    color: #6B6B6B;
+    text-align: center;
+    margin-bottom: 36px; }
+  .categorias-sugeridas .container-categorias-sugeridas .container-box-categorias-sugeridas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .categorias-sugeridas .container-categorias-sugeridas .container-box-categorias-sugeridas a {
+      margin-bottom: 32px; }
+
+.sobre-comercio-livre {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between; }
+  .sobre-comercio-livre .sobre-home {
+    width: 480px;
+    height: 160px;
+    border-radius: 5px;
+    border: solid 2px #DBCDEF;
+    padding: 32px;
+    display: flex;
+    align-items: center; }
+    .sobre-comercio-livre .sobre-home img {
+      width: 128px;
+      height: 90px; }
+    .sobre-comercio-livre .sobre-home p {
+      margin-left: 18px;
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 400;
+      color: #8D8C8C; }
+  .sobre-comercio-livre .mapa-home {
+    width: 592px;
+    height: 360px;
+    border-radius: 5px; }
