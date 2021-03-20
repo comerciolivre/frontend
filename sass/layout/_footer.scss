@@ -1,0 +1,123 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1182px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    }
+    #rodape {
+        display: flex;
+        justify-content: center;
+        background-color: #FD7E02;
+        font-weight: 600;
+    
+    .rodape_left {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .rodape_left ul, .rodape_left li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    .rodape_left li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px;
+        padding-right: 20px;
+        transition: all 0.2s linear;
+    }
+    .rodape_left .txt_rodape {
+        color: #fff;
+        font-size: 11px;
+        margin-top: 8px;
+        font-weight: 600;
+    }
+    
+    }
+    
+    #mais_inf {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn_mais_inf {
+        display: flex;
+        background-color: #FFF;
+    }
+    .btn_mais_inf_left {
+        flex: 1px;
+        border-bottom: 1px solid #ff8400;
+    }
+    .btn_mais_inf_center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ff8400;
+        width: 158px;
+        border-top: 10px solid #ff8400;
+        border-left: 1px solid #ff8400;
+        border-right: 1px solid #ff8400;
+        border-radius: 5px 5px 0px 0px;
+        font-size: 12px;
+        color: #000;
+        cursor: pointer;
+    }
+    .btn_mais_inf_right {
+        flex: 1px;
+        border-bottom: 1px solid #ff8400;
+    }
+    .mais_inf_body {
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #D7D7D7;
+    }
+    .fooder {
+        display: flex;
+        justify-content: space-between;
+        width: 1182px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mais_inf_box {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .mais_inf_area {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .mais_inf_box_title {
+        color: #333;
+        font-weight: 600;
+        font-size: 13px;
+        margin-bottom: 17px;
+    }
+    .mais_inf_area ul, .mais_inf_area li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .mais_inf_area li a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #3483FA;
+        line-height: 20px;
+    }

@@ -1,0 +1,117 @@
+.button {
+  border-radius: 5px;  
+  border: none;
+  cursor: pointer;
+}
+
+// botão normal
+.button-normal-sm {
+  background-color: $blue-daltonism;
+  width: 176px;
+  height: 40px;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.15s ease-in;
+
+  &:hover {
+    background-color: $blue-daltonism-hover;
+  }
+}
+
+.button-normal-lg {
+  background-color: $blue-daltonism;
+  width: 384px;
+  height: 40px;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.15s ease-in;
+
+  &:hover {
+    background-color: $blue-daltonism-hover;
+  }
+}
+
+// botão especifico
+.button-comprar { // finalizar compra
+  background-color: $blue-daltonism;
+  width: 248px;
+  height: 64px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  transition: 0.15s ease-in;
+
+  &:hover {
+    background-color: $blue-daltonism-hover;
+  }
+}
+
+.button-carrinho { //adicionar ao carrinho
+  border: solid 2px $blue-daltonism;
+  width: 248px;
+  height: 64px;
+  color: $blue-daltonism;
+  font-weight: 700;
+  font-size: 18px;
+  transition: 0.15s ease-in;
+
+  &:hover {
+    border: solid 2px $blue-daltonism-hover;
+    color: $blue-daltonism-hover;
+  }
+}
+
+.button-banner { //botão do banner da home
+  background-color: $orange;
+  width: 280px;
+  height: 56px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  transition: 0.15s ease-in;
+
+  &:hover {
+    background-color: $orange-dark;
+  }
+}
+
+.button-promo-top { //botão de slide do topo
+  background-color: $orange;
+  width: 114px;
+  height: 24px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  transition: 0.15s ease-in;
+
+  &:hover {
+    background-color: $orange-dark;
+  }
+}
+
+.button-minha-conta {
+  background-color: $orange;
+  width: 176px;
+  height: 44px;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.15s ease-in;
+
+  &:hover {
+    background-color: $orange-dark;
+  }  
+}
+
+.button-card-comprar { //botão do card
+  background-color: $orange;
+  width: 100px;
+  height: 28px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  transition: 0.15s ease-in;
+
+  &:hover {
+    background-color: $orange-dark;
+  }
+}

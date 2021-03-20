@@ -1,0 +1,178 @@
+#promo-top {
+  background-color: #f3f3f3;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .promo-top-container {
+    width: auto;
+    display: flex;
+    align-items: center;
+
+    h4{
+      color: $purple;
+      text-transform: uppercase;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    button {
+      margin-left: 32px;
+    }
+  }
+}
+
+.destaque {
+  display: flex;
+  justify-content: space-between;
+}
+
+.oferta-semana {
+  height: 552px;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    margin-top: 80px;
+    text-align: center;
+    @include title-1;
+    color: $gray-3;
+  }
+
+  .container-box {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+
+    .box-oferta-semana {
+      width: 384px;
+      height: 286px;
+      background-color: $orange-light;
+    }
+  }
+}
+
+.destaque {
+  display: flex;
+  flex-direction: column;
+
+  h2 {    
+    text-align: center;
+    @include title-1;
+    color: $gray-3;
+  }
+
+  .produtos-destaque {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+}
+
+.banner-meio {
+  margin-top: 80px;
+  width: 1350px;
+  height: 286px;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(../assets/img/banner-pequeno-2.png);
+  
+  button {
+    margin-bottom: 38px;
+  }
+}
+
+.produtos-botton-banner {
+  margin-top: 80px;
+
+  .produtos-botton {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.outras-ofertas {
+  margin-top: 80px;
+
+  h2 {
+    text-align: center;
+    @include title-1;
+    color: $gray-3;
+  }
+
+  .container-box-outras-ofertas{
+    display: flex;
+    justify-content: space-between;
+
+    .box-outras-ofertas {
+      margin-top: 36px;
+      width: 592px;
+      height: 286px;
+      background-color: $orange-light;
+    }
+  }
+}
+
+.categorias-sugeridas {
+  margin-top: 80px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background-color: $purple-super-light;
+
+  .container-categorias-sugeridas{
+
+    h2 {
+      @include title-1;
+      color: $gray-3;
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .container-box-categorias-sugeridas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      a {
+        margin-bottom: 32px;
+      }
+    }
+  }
+}
+
+.sobre-comercio-livre {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+
+  .sobre-home {
+    width: 480px;
+    height: 200px;
+    border-radius: 5px;
+    border: solid 2px #DBCDEF;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 128px;
+      height: 90px;
+    }
+
+    p {
+      margin-left: 18px;
+      @include body-2;
+      color: $gray-4;
+    }
+  }
+
+  .mapa-home {
+    width: 592px;
+    height: 360px;
+    border-radius: 5px;
+  }
+}
