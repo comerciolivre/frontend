@@ -24,8 +24,7 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 body {
-  line-height: 1;
-  padding-bottom: 10rem; }
+  line-height: 1; }
 
 ol, ul {
   list-style: none; }
@@ -136,6 +135,14 @@ body {
   transition: 0.15s ease-in; }
   .button-card-comprar:hover {
     background-color: #FF6404; }
+
+.button-formas-login {
+  width: 122px;
+  height: 44px;
+  background-color: #302626;
+  transition: 0.15s; }
+  .button-formas-login:hover {
+    background-color: #2b2222; }
 
 .grid {
   width: 1226px;
@@ -448,3 +455,119 @@ nav {
     width: 592px;
     height: 360px;
     border-radius: 5px; }
+
+.container .box-teste {
+  width: 200px;
+  height: 200px;
+  background-color: yellow; }
+
+body {
+  background: #E3E3E3;
+  height: 868px; }
+
+.container-login {
+  display: flex;
+  justify-content: space-between;
+  background: url(../../assets/img/pagina-login.png) no-repeat;
+  height: 868px; }
+  .container-login .container {
+    width: 1226px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+  .container-login .container-left-login {
+    z-index: 1; }
+    .container-login .container-left-login .texto-login {
+      margin-top: 60vh;
+      width: 384px; }
+      .container-login .container-left-login .texto-login h1 {
+        font-size: 64px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 24px; }
+        .container-login .container-left-login .texto-login h1 span {
+          color: #FD7E02; }
+      .container-login .container-left-login .texto-login p {
+        font-size: 20px;
+        line-height: 150%;
+        color: white; }
+  .container-login .container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .container-login .container-right .dica-login {
+      margin-top: 54px;
+      text-align: center;
+      width: 410px;
+      font-size: 12px;
+      line-height: 18px;
+      font-weight: 400;
+      color: #6B6B6B; }
+  .container-login .container-right-login {
+    margin-top: 40px;
+    width: 547px;
+    height: 678px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .container-login .container-right-login .titulo-login {
+      margin-top: 48px;
+      width: 410px; }
+      .container-login .container-right-login .titulo-login img {
+        margin-bottom: 40px; }
+      .container-login .container-right-login .titulo-login h2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #2B2833;
+        margin-bottom: 32px; }
+    .container-login .container-right-login .form-login {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .container-login .container-right-login .form-login .form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px; }
+        .container-login .container-right-login .form-login .form label {
+          font-size: 16px;
+          font-weight: 700;
+          color: #525252;
+          line-height: 125%;
+          margin-bottom: 6px; }
+        .container-login .container-right-login .form-login .form input {
+          width: 384px;
+          height: 40px;
+          padding-left: 16px;
+          border-radius: 5px;
+          border: 1px solid #8D8C8C; }
+      .container-login .container-right-login .form-login button {
+        margin-bottom: 24px;
+        width: 406px; }
+    .container-login .container-right-login a {
+      text-decoration: none;
+      font-weight: 700;
+      color: #3483FA;
+      margin-bottom: 16px; }
+      .container-login .container-right-login a:hover {
+        color: #106DF9; }
+    .container-login .container-right-login p {
+      font-weight: 700;
+      color: #AEAEAE;
+      margin-bottom: 16px; }
+    .container-login .container-right-login .outras-formas-login {
+      width: 406px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 32px; }
+    .container-login .container-right-login h5 {
+      font-size: 14px;
+      color: #6B6B6B; }
+      .container-login .container-right-login h5 a {
+        text-decoration: none;
+        font-weight: 700;
+        color: #3483FA;
+        margin-bottom: 16px; }
+        .container-login .container-right-login h5 a:hover {
+          color: #106DF9; }
