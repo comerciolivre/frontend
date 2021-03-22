@@ -466,8 +466,6 @@ body {
   height: 868px; }
 
 .container-login {
-  display: flex;
-  justify-content: space-between;
   background: url(../../assets/img/pagina-login.png) no-repeat;
   height: 868px; }
   .container-login .container {
