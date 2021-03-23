@@ -461,9 +461,9 @@ nav {
   height: 200px;
   background-color: yellow; }
 
-body {
+.bg-login-color {
   background: #E3E3E3;
-  height: 868px; }
+  height: 100%; }
 
 .container-login {
   background: url(../../assets/img/pagina-login.png) no-repeat;
@@ -570,3 +570,112 @@ body {
         margin-bottom: 16px; }
         .container-login .container-right-login h5 a:hover {
           color: #106DF9; }
+
+#cadastrarConta_bg {
+  background-color: #E4E4E4;
+  padding-bottom: 140px; }
+
+.cadastrarConta {
+  width: 100%;
+  background: url(../../assets/img/bg_cadastrarConta.png) no-repeat top center; }
+  .cadastrarConta .cadastrarConta_container {
+    width: 1008px;
+    margin: 0 auto; }
+    .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo {
+      width: 380px; }
+      .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo h1 {
+        padding-top: 84px;
+        line-height: 100%;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 125%;
+        color: white; }
+        .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo h1 span {
+          color: #FD7E02; }
+      .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo p {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: white; }
+    .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario {
+      width: 1008px;
+      height: 644px;
+      background-color: white;
+      margin-top: 48px;
+      border-radius: 5px; }
+      .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario {
+        padding: 77px 88px 77px 88px;
+        display: flex;
+        justify-content: space-between; }
+        .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_formulario-left {
+          width: 384px; }
+          .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_formulario-left .aceitar-termos {
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+            margin-bottom: 20px; }
+            .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_formulario-left .aceitar-termos p {
+              margin-left: 8px;
+              font-size: 13px;
+              color: #6B6B6B; }
+              .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_formulario-left .aceitar-termos p a {
+                font-size: 16px;
+                font-weight: 700;
+                color: #3483FA;
+                text-decoration: none; }
+                .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_formulario-left .aceitar-termos p a:hover {
+                  color: #106DF9; }
+        .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_formulario-right {
+          width: 384px; }
+        .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_uf-cidade {
+          display: flex;
+          justify-content: space-between; }
+          .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_uf-cidade .uf {
+            width: 64px; }
+          .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_uf-cidade .cidade {
+            width: 248px; }
+        .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_rua-numero {
+          display: flex;
+          justify-content: space-between; }
+          .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_rua-numero .rua {
+            width: 236px; }
+          .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_rua-numero .numero {
+            width: 80px; }
+
+.cadastrarConta_campo-formulario {
+  display: flex;
+  flex-direction: column; }
+  .cadastrarConta_campo-formulario label {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%;
+    color: #2B2833;
+    margin-bottom: 8px; }
+  .cadastrarConta_campo-formulario input {
+    border: 1px solid #8D8C8C;
+    border-radius: 5px;
+    width: 360px;
+    height: 40px;
+    padding-left: 16px;
+    margin-bottom: 32px; }
+
+.testeError_campo-formulario {
+  display: flex;
+  flex-direction: column; }
+  .testeError_campo-formulario label {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%;
+    color: #2B2833;
+    margin-bottom: 8px; }
+  .testeError_campo-formulario input {
+    border: 2px solid #F93030;
+    border-radius: 5px;
+    width: 360px;
+    height: 40px;
+    padding-left: 16px;
+    margin-bottom: 8px; }
+  .testeError_campo-formulario p {
+    color: #F93030;
+    font-size: 12px; }
