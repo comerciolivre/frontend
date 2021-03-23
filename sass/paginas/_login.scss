@@ -16,7 +16,6 @@ body {
 
   .container-left-login {
     z-index: 1;
-    margin-left: 64px;
 
     .texto-login {
       margin-top: 60vh;
@@ -45,6 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 48px;
 
     .dica-login {
       margin-top: 54px;
