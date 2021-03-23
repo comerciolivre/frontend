@@ -581,26 +581,43 @@ nav {
   .cadastrarConta .cadastrarConta_container {
     width: 1008px;
     margin: 0 auto; }
-    .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo {
-      width: 380px; }
-      .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo h1 {
-        padding-top: 84px;
-        line-height: 100%;
-        font-size: 48px;
-        font-weight: 700;
-        line-height: 125%;
-        color: white; }
-        .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo h1 span {
-          color: #FD7E02; }
-      .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo p {
-        margin-top: 8px;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
-        color: white; }
+    .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo-logo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo-logo .cadastrarConta_titulo {
+        width: 380px; }
+        .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo-logo .cadastrarConta_titulo h1 {
+          padding-top: 84px;
+          line-height: 100%;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 125%;
+          color: white; }
+          .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo-logo .cadastrarConta_titulo h1 span {
+            color: #FD7E02; }
+        .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo-logo .cadastrarConta_titulo p {
+          margin-top: 8px;
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 400;
+          color: white; }
+      .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo-logo .cadastrarConta_logo {
+        width: 96px;
+        height: 88px;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo-logo .cadastrarConta_logo a {
+          cursor: pointer; }
+          .cadastrarConta .cadastrarConta_container .cadastrarConta_titulo-logo .cadastrarConta_logo a img {
+            width: 72px;
+            height: 52px; }
     .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario {
       width: 1008px;
-      height: 644px;
+      height: 680px;
       background-color: white;
       margin-top: 48px;
       border-radius: 5px; }
@@ -626,6 +643,16 @@ nav {
                 text-decoration: none; }
                 .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_formulario-left .aceitar-termos p a:hover {
                   color: #106DF9; }
+          .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_formulario-left .jaSouCadastrado {
+            width: 136px;
+            margin: 0 auto;
+            margin-top: 24px; }
+            .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_formulario-left .jaSouCadastrado a {
+              text-decoration: none;
+              color: #3483FA;
+              font-weight: 700; }
+              .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_formulario-left .jaSouCadastrado a:hover {
+                color: #106DF9; }
         .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_formulario-right {
           width: 384px; }
         .cadastrarConta .cadastrarConta_container .cadastrarConta_container-formulario .cadastrarConta_formulario .cadastrarConta_uf-cidade {

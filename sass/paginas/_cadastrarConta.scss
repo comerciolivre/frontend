@@ -11,32 +11,58 @@
     width: 1008px;
     margin: 0 auto;
 
-    .cadastrarConta_titulo {
-      width: 380px;
-      
-      h1 {        
-        padding-top: 84px;
-        line-height: 100%;
-        font-size: 48px;
-        font-weight: 700;
-        line-height: 125%;
-        color: white;
+    .cadastrarConta_titulo-logo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-        span {
-          color: $orange;
+      .cadastrarConta_titulo {
+        width: 380px;
+        
+        h1 {        
+          padding-top: 84px;
+          line-height: 100%;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 125%;
+          color: white;
+  
+          span {
+            color: $orange;
+          }
+        }
+  
+        p {
+          margin-top: 8px;
+          @include body-1;
+          color: white;
         }
       }
 
-      p {
-        margin-top: 8px;
-        @include body-1;
-        color: white;
+      .cadastrarConta_logo {
+        width: 96px;
+        height: 88px;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+          cursor: pointer;
+
+          img {
+            width: 72px;
+            height: 52px;
+          }
+        }
       }
     }
 
+
     .cadastrarConta_container-formulario {
       width: 1008px;
-      height: 644px;
+      height: 680px;
       background-color: white;
       margin-top: 48px;
       border-radius: 5px;
@@ -69,6 +95,22 @@
                 &:hover {
                   color: $blue-daltonism-hover;
                 }
+              }
+            }
+          }
+
+          .jaSouCadastrado {
+            width: 136px;
+            margin: 0 auto;
+            margin-top: 24px;
+
+            a {
+              text-decoration: none;
+              color: $blue-daltonism;
+              font-weight: 700;
+
+              &:hover {
+                color: $blue-daltonism-hover;
               }
             }
           }
