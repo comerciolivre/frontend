@@ -13,24 +13,40 @@
 </head>
 
 <body>
+  <!-- Aqui inicia toda a página de cadastrar conta de usuário -->
   <main id="cadastrarConta_bg">
+
+    <!-- A section a seguir segura o background e nela que está todo o resto da página -->
     <section class="cadastrarConta">
+
+      <!-- Aqui foi determinado o grid onde a página foi construída -->
       <div class="cadastrarConta_container">
+
+        <!-- ****************************  TÍTULO + LOGO  *********************** -->
+        <!-- Nesse trecho foi colocado o titulo da página e a logo que redireciona para a index.html -->
         <div class="cadastrarConta_titulo-logo">
+          <!-- Área do título e subtitulo da página -->
           <div class="cadastrarConta_titulo">
             <h1>Cadastre-se e comece <span>a usar</span></h1>
             <p>
               Preencha os campos com suas informações para finalizar seu cadastro e continuar.
             </p>
           </div>
+          <!-- Aqui está o logo -->
           <div class="cadastrarConta_logo">
             <a href="index.html">
               <img src="assets/img/logo-pequena.png" alt="">
             </a>
           </div>
         </div>
+        <!-- Final cadastrarConta_titulo-logo -->
+
+        <!-- ****************************  FORMULÀRIO  ********************* -->
+        <!-- Aqui foi determinado o grid do formulário que é um pouco menor que o da página completa -->
         <div class="cadastrarConta_container-formulario">
           <form class="cadastrarConta_formulario" action="">
+
+            <!-- **** Coluna ESQUERDA do formulário **** -->
             <div class="cadastrarConta_formulario-left">
               <div class="cadastrarConta_campo-formulario">
                 <label for="">Nome</label>
@@ -57,6 +73,8 @@
                 <a href="#">Já sou cadastrado</a>
               </div>
             </div>
+
+            <!-- **** Coluna DIREITA do formulário **** -->
             <div class="cadastrarConta_formulario-right">
               <div class="cadastrarConta_campo-formulario">
                 <label for="">CPF ou CNPJ</label>
@@ -66,6 +84,8 @@
                 <label for="">CEP</label>
                 <input type="text" placeholder="Digite seu aqui seu CEP" name="">
               </div>
+
+              <!-- Classe especial para estilar esses inputs do form por que ela são DOIS inputs em uma ÚNICA linha -->
               <div class="cadastrarConta_uf-cidade">
                 <div class="cadastrarConta_campo-formulario">
                   <label for="">UF</label>

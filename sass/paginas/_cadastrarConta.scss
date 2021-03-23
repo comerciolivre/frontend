@@ -1,22 +1,22 @@
-#cadastrarConta_bg {
+#cadastrarConta_bg { // Background da página inteira
   background-color: #E4E4E4;
   padding-bottom: 140px;
 }
 
-.cadastrarConta {
+.cadastrarConta { // BG da página e página inteira
   width: 100%;
   background: url(../../assets/img/bg_cadastrarConta.png) no-repeat top center;
 
-  .cadastrarConta_container {
+  .cadastrarConta_container { // Grid da página
     width: 1008px;
     margin: 0 auto;
 
-    .cadastrarConta_titulo-logo {
+    .cadastrarConta_titulo-logo { // Área do logo e do titulo
       display: flex;
       justify-content: space-between;
       align-items: center;
 
-      .cadastrarConta_titulo {
+      .cadastrarConta_titulo { // Titulo da página
         width: 380px;
         
         h1 {        
@@ -39,7 +39,7 @@
         }
       }
 
-      .cadastrarConta_logo {
+      .cadastrarConta_logo { // Logo da página
         width: 96px;
         height: 88px;
         background-color: white;
@@ -60,22 +60,22 @@
     }
 
 
-    .cadastrarConta_container-formulario {
+    .cadastrarConta_container-formulario { // Container do formulário
       width: 1008px;
       height: 680px;
       background-color: white;
       margin-top: 48px;
       border-radius: 5px;
 
-      .cadastrarConta_formulario {
+      .cadastrarConta_formulario { // formulário
         padding: 77px 88px 77px 88px;
         display: flex;
         justify-content: space-between;
 
-        .cadastrarConta_formulario-left {
+        .cadastrarConta_formulario-left { // Coluna esquerda do formulário
           width: 384px;
 
-          .aceitar-termos {
+          .aceitar-termos { // Checkbox - Aceitar termos
             display: flex;
             align-items: center;
             margin-top: 8px;
@@ -99,7 +99,7 @@
             }
           }
 
-          .jaSouCadastrado {
+          .jaSouCadastrado { // Link "Já sou cadastrado"
             width: 136px;
             margin: 0 auto;
             margin-top: 24px;
@@ -116,11 +116,11 @@
           }
         }
         
-        .cadastrarConta_formulario-right {
+        .cadastrarConta_formulario-right { // Coluna direita do formulário
           width: 384px;
         }
 
-        .cadastrarConta_uf-cidade {
+        .cadastrarConta_uf-cidade { // Inputs de classe isolada UF e Cidade
           display: flex;
           justify-content: space-between;
 
@@ -133,7 +133,7 @@
           }
         }
 
-        .cadastrarConta_rua-numero {
+        .cadastrarConta_rua-numero { // Inputs de classe isolada Rua e Número
           display: flex;
           justify-content: space-between;
 
@@ -150,7 +150,7 @@
   }
 }
 
-.cadastrarConta_campo-formulario {
+.cadastrarConta_campo-formulario { // Estilização dos inputs do formulário
   display: flex;
   flex-direction: column;
 
@@ -172,7 +172,7 @@
   }
 }
 
-.testeError_campo-formulario {
+.testeError_campo-formulario { // Estilo de Input de teste de erro
   display: flex;
   flex-direction: column;
 
