@@ -1,0 +1,158 @@
+#cadastrarConta_bg {
+  background-color: #E4E4E4;
+  padding-bottom: 140px;
+}
+
+.cadastrarConta {
+  width: 100%;
+  background: url(../../assets/img/bg_cadastrarConta.png) no-repeat top center;
+
+  .cadastrarConta_container {
+    width: 1008px;
+    margin: 0 auto;
+
+    .cadastrarConta_titulo {
+      width: 380px;
+      
+      h1 {        
+        padding-top: 84px;
+        line-height: 100%;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 125%;
+        color: white;
+
+        span {
+          color: $orange;
+        }
+      }
+
+      p {
+        margin-top: 8px;
+        @include body-1;
+        color: white;
+      }
+    }
+
+    .cadastrarConta_container-formulario {
+      width: 1008px;
+      height: 644px;
+      background-color: white;
+      margin-top: 48px;
+      border-radius: 5px;
+
+      .cadastrarConta_formulario {
+        padding: 77px 88px 77px 88px;
+        display: flex;
+        justify-content: space-between;
+
+        .cadastrarConta_formulario-left {
+          width: 384px;
+
+          .aceitar-termos {
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+            margin-bottom: 20px;
+
+            p {
+              margin-left: 8px;
+              font-size: 13px;
+              color: $gray-3;
+
+              a {
+                font-size: 16px;
+                font-weight: 700;
+                color: $blue-daltonism;
+                text-decoration: none;
+
+                &:hover {
+                  color: $blue-daltonism-hover;
+                }
+              }
+            }
+          }
+        }
+        
+        .cadastrarConta_formulario-right {
+          width: 384px;
+        }
+
+        .cadastrarConta_uf-cidade {
+          display: flex;
+          justify-content: space-between;
+
+          .uf {
+            width: 64px;
+          }
+
+          .cidade {
+            width: 248px;
+          }
+        }
+
+        .cadastrarConta_rua-numero {
+          display: flex;
+          justify-content: space-between;
+
+          .rua {
+            width: 236px;
+          }
+
+          .numero {
+            width: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.cadastrarConta_campo-formulario {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%;
+    color: $gray-1;
+    margin-bottom: 8px;
+  }
+
+  input {
+    border: 1px solid $gray-4;
+    border-radius: 5px;
+    width: 360px;
+    height: 40px;
+    padding-left: 16px;
+    margin-bottom: 32px;
+  }
+}
+
+.testeError_campo-formulario {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%;
+    color: $gray-1;
+    margin-bottom: 8px;
+  }
+
+  input {
+    border: 2px solid $alert;
+    border-radius: 5px;
+    width: 360px;
+    height: 40px;
+    padding-left: 16px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    color: $alert;
+    font-size: 12px;
+  }
+}
