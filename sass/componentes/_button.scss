@@ -115,3 +115,14 @@
     background-color: $orange-dark;
   }
 }
+
+.button-formas-login {
+  width: 122px;
+  height: 44px;
+  background-color: #302626;
+  transition: 0.15s;
+
+  &:hover {
+    background-color: #2b2222;
+  }
+}

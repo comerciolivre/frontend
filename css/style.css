@@ -136,6 +136,14 @@ body {
   .button-card-comprar:hover {
     background-color: #FF6404; }
 
+.button-formas-login {
+  width: 122px;
+  height: 44px;
+  background-color: #302626;
+  transition: 0.15s; }
+  .button-formas-login:hover {
+    background-color: #2b2222; }
+
 .grid {
   width: 1226px;
   margin: 0 auto; }
@@ -279,6 +287,34 @@ nav {
     box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2);
     transform: scale(1.02); }
 
+.card-categoria-link {
+  text-decoration: none;
+  cursor: pointer; }
+  .card-categoria-link .card_categoria {
+    width: 176px;
+    height: 176px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s; }
+    .card-categoria-link .card_categoria h5 {
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 500;
+      color: #8D8C8C;
+      margin-top: 16px; }
+    .card-categoria-link .card_categoria:hover {
+      transform: scale(1.03);
+      background-color: #FD7E02;
+      box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.3); }
+      .card-categoria-link .card_categoria:hover h5 {
+        color: white; }
+      .card-categoria-link .card_categoria:hover .hover-categoria-sugerida {
+        fill: white; }
+
 #promo-top {
   background-color: #f3f3f3;
   height: 40px;
@@ -300,3 +336,237 @@ nav {
 .destaque {
   display: flex;
   justify-content: space-between; }
+
+.banner {
+  width: 1440px;
+  height: 438px;
+  background-color: #FFAC00;
+  background-image: url(../../assets/img/banner-grande-1.png); }
+
+.oferta-semana {
+  height: 552px;
+  display: flex;
+  flex-direction: column; }
+  .oferta-semana h2 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 300;
+    color: #6B6B6B; }
+  .oferta-semana .container-box {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between; }
+    .oferta-semana .container-box .box-oferta-semana {
+      width: 384px;
+      height: 286px;
+      background-color: #FEA04E; }
+
+.destaque {
+  display: flex;
+  flex-direction: column; }
+  .destaque h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 300;
+    color: #6B6B6B; }
+  .destaque .produtos-destaque {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px; }
+
+.banner-meio {
+  margin-top: 80px;
+  width: 1440px;
+  height: 286px;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(../../assets/img/banner-pequeno-2.png); }
+  .banner-meio button {
+    margin-bottom: 38px; }
+
+.produtos-botton-banner {
+  margin-top: 80px; }
+  .produtos-botton-banner .produtos-botton {
+    display: flex;
+    justify-content: space-between; }
+
+.outras-ofertas {
+  margin-top: 80px; }
+  .outras-ofertas h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 300;
+    color: #6B6B6B; }
+  .outras-ofertas .container-box-outras-ofertas {
+    display: flex;
+    justify-content: space-between; }
+    .outras-ofertas .container-box-outras-ofertas .box-outras-ofertas {
+      margin-top: 36px;
+      width: 592px;
+      height: 286px;
+      background-color: #FEA04E; }
+
+.categorias-sugeridas {
+  margin-top: 80px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background-color: #F2EEF7; }
+  .categorias-sugeridas .container-categorias-sugeridas h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 300;
+    color: #6B6B6B;
+    text-align: center;
+    margin-bottom: 36px; }
+  .categorias-sugeridas .container-categorias-sugeridas .container-box-categorias-sugeridas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .categorias-sugeridas .container-categorias-sugeridas .container-box-categorias-sugeridas a {
+      margin-bottom: 32px; }
+
+.sobre-comercio-livre {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between; }
+  .sobre-comercio-livre .sobre-home {
+    width: 480px;
+    height: 160px;
+    border-radius: 5px;
+    border: solid 2px #DBCDEF;
+    padding: 32px;
+    display: flex;
+    align-items: center; }
+    .sobre-comercio-livre .sobre-home img {
+      width: 128px;
+      height: 90px; }
+    .sobre-comercio-livre .sobre-home p {
+      margin-left: 18px;
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 400;
+      color: #8D8C8C; }
+  .sobre-comercio-livre .mapa-home {
+    width: 592px;
+    height: 360px;
+    border-radius: 5px; }
+
+.container .box-teste {
+  width: 200px;
+  height: 200px;
+  background-color: yellow; }
+
+body {
+  background: #E3E3E3;
+  height: 868px; }
+
+.container-login {
+  background: url(../../assets/img/pagina-login.png) no-repeat;
+  height: 868px; }
+  .container-login .container {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+  .container-login .container-left-login {
+    z-index: 1; }
+    .container-login .container-left-login .texto-login {
+      margin-top: 60vh;
+      width: 384px; }
+      .container-login .container-left-login .texto-login h1 {
+        font-size: 64px;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 24px; }
+        .container-login .container-left-login .texto-login h1 span {
+          color: #FD7E02; }
+      .container-login .container-left-login .texto-login p {
+        font-size: 20px;
+        line-height: 150%;
+        color: white; }
+  .container-login .container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 48px; }
+    .container-login .container-right .dica-login {
+      margin-top: 54px;
+      text-align: center;
+      width: 410px;
+      font-size: 12px;
+      line-height: 18px;
+      font-weight: 400;
+      color: #6B6B6B; }
+  .container-login .container-right-login {
+    margin-top: 40px;
+    width: 547px;
+    height: 678px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .container-login .container-right-login .titulo-login {
+      margin-top: 48px;
+      width: 410px; }
+      .container-login .container-right-login .titulo-login img {
+        margin-bottom: 40px; }
+      .container-login .container-right-login .titulo-login h2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #2B2833;
+        margin-bottom: 32px; }
+    .container-login .container-right-login .form-login {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .container-login .container-right-login .form-login .form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px; }
+        .container-login .container-right-login .form-login .form label {
+          font-size: 16px;
+          font-weight: 700;
+          color: #525252;
+          line-height: 125%;
+          margin-bottom: 6px; }
+        .container-login .container-right-login .form-login .form input {
+          width: 384px;
+          height: 40px;
+          padding-left: 16px;
+          border-radius: 5px;
+          border: 1px solid #8D8C8C; }
+      .container-login .container-right-login .form-login button {
+        margin-bottom: 24px;
+        width: 406px; }
+    .container-login .container-right-login a {
+      text-decoration: none;
+      font-weight: 700;
+      color: #3483FA;
+      margin-bottom: 16px; }
+      .container-login .container-right-login a:hover {
+        color: #106DF9; }
+    .container-login .container-right-login p {
+      font-weight: 700;
+      color: #AEAEAE;
+      margin-bottom: 16px; }
+    .container-login .container-right-login .outras-formas-login {
+      width: 406px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 32px; }
+    .container-login .container-right-login h5 {
+      font-size: 14px;
+      color: #6B6B6B; }
+      .container-login .container-right-login h5 a {
+        text-decoration: none;
+        font-weight: 700;
+        color: #3483FA;
+        margin-bottom: 16px; }
+        .container-login .container-right-login h5 a:hover {
+          color: #106DF9; }

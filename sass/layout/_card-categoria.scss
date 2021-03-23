@@ -1,0 +1,37 @@
+.card-categoria-link {
+  text-decoration: none;
+  cursor: pointer;
+
+  .card_categoria {
+    width: 176px;
+    height: 176px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+
+    h5 {
+      @include body-3;
+      color: $gray-4;
+      margin-top: 16px;
+    }
+
+    &:hover {
+      transform: scale(1.03);
+      background-color: $orange;
+      box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.3);
+      
+      h5 {
+        color: white;
+      }
+
+      .hover-categoria-sugerida {
+        fill: white;
+      }
+    }
+  }
+}
+
