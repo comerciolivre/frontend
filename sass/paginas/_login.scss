@@ -8,7 +8,7 @@ body {
   height: 868px;
 
   .container {
-    width: 1226px;
+    width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -16,6 +16,7 @@ body {
 
   .container-left-login {
     z-index: 1;
+    margin-left: 64px;
 
     .texto-login {
       margin-top: 60vh;

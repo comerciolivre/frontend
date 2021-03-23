@@ -469,12 +469,13 @@ body {
   background: url(../../assets/img/pagina-login.png) no-repeat;
   height: 868px; }
   .container-login .container {
-    width: 1226px;
+    width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between; }
   .container-login .container-left-login {
-    z-index: 1; }
+    z-index: 1;
+    margin-left: 64px; }
     .container-login .container-left-login .texto-login {
       margin-top: 60vh;
       width: 384px; }
