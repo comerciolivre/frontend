@@ -841,7 +841,7 @@ nav {
         font-size: 24px;
         color: #6B6B6B; }
 
-main {
+.main_cadastrarProduto {
   background-color: #E4E4E4;
   height: 1380px; }
 
@@ -952,3 +952,64 @@ main {
     .cadastrarProduto_container .cadastrarProduto_migalhadepao .etapaNaoAlcancada {
       opacity: 30%;
       background: none; }
+  .cadastrarProduto_container .cadastrarProduto_container-interface {
+    width: 693px;
+    height: 488px;
+    background-color: #EEE9F4;
+    border-radius: 5px;
+    margin-top: 64px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around; }
+    .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar {
+      width: 661px;
+      height: 186px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar .adicionarImagemProduto {
+        width: 140px;
+        height: 186px;
+        background-color: white;
+        display: flex;
+        justify-content: center; }
+        .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar .adicionarImagemProduto a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          text-decoration: none;
+          box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.1);
+          transition: 0.2s; }
+          .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar .adicionarImagemProduto a:hover {
+            box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2); }
+          .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar .adicionarImagemProduto a p {
+            margin-top: 16px;
+            font-size: 14px;
+            font-weight: 700;
+            color: #3483FA;
+            text-align: center;
+            line-height: 115%; }
+      .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar .container_preview_imagem {
+        width: 500px;
+        height: 188px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; }
+        .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar .container_preview_imagem .preview_imagem {
+          width: 72px;
+          height: 72px;
+          background-color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 12px;
+          margin-top: 12px;
+          margin-bottom: 12px; }
+    .cadastrarProduto_container .cadastrarProduto_container-interface .containerVideo_cadastrarProduto {
+      width: 400px;
+      margin: 0 auto;
+      height: 186px;
+      background-color: #414141; }
