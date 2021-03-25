@@ -56,9 +56,21 @@ body {
   height: 40px;
   color: #fff;
   font-weight: 700;
-  transition: 0.15s ease-in; }
+  transition: 0.1s ease-in; }
   .button-normal-sm:hover {
     background-color: #106DF9; }
+
+.button-normal-sm-outline {
+  border: 2px solid #3483FA;
+  background-color: white;
+  width: 176px;
+  height: 40px;
+  color: #3483FA;
+  font-weight: 700;
+  transition: 0.1s ease-in; }
+  .button-normal-sm-outline:hover {
+    border: 2.5px solid #106DF9;
+    color: #106DF9; }
 
 .button-normal-lg {
   background-color: #3483FA;
@@ -72,23 +84,23 @@ body {
 
 .button-comprar {
   background-color: #3483FA;
-  width: 248px;
+  width: 197px;
   height: 64px;
   color: #fff;
   font-weight: 700;
   font-size: 18px;
-  transition: 0.15s ease-in; }
+  transition: 0.1s ease-in; }
   .button-comprar:hover {
     background-color: #106DF9; }
 
 .button-carrinho {
   border: solid 2px #3483FA;
-  width: 248px;
+  width: 197px;
   height: 64px;
   color: #3483FA;
   font-weight: 700;
   font-size: 18px;
-  transition: 0.15s ease-in; }
+  transition: 0.1s ease-in; }
   .button-carrinho:hover {
     border: solid 2px #106DF9;
     color: #106DF9; }
@@ -100,7 +112,7 @@ body {
   color: #fff;
   font-weight: 700;
   font-size: 18px;
-  transition: 0.15s ease-in; }
+  transition: 0.1s ease-in; }
   .button-banner:hover {
     background-color: #FF6404; }
 
@@ -111,7 +123,7 @@ body {
   color: #fff;
   font-weight: 700;
   font-size: 12px;
-  transition: 0.15s ease-in; }
+  transition: 0.1s ease-in; }
   .button-promo-top:hover {
     background-color: #FF6404; }
 
@@ -121,7 +133,7 @@ body {
   height: 44px;
   color: #fff;
   font-weight: 700;
-  transition: 0.15s ease-in; }
+  transition: 0.1s ease-in; }
   .button-minha-conta:hover {
     background-color: #FF6404; }
 
@@ -132,7 +144,7 @@ body {
   color: #fff;
   font-weight: 700;
   font-size: 12px;
-  transition: 0.15s ease-in; }
+  transition: 0.1s ease-in; }
   .button-card-comprar:hover {
     background-color: #FF6404; }
 
@@ -140,13 +152,49 @@ body {
   width: 122px;
   height: 44px;
   background-color: #302626;
-  transition: 0.15s; }
+  transition: 0.1s; }
   .button-formas-login:hover {
     background-color: #2b2222; }
 
 .grid {
   width: 1226px;
   margin: 0 auto; }
+
+.formulario_campo {
+  display: flex;
+  flex-direction: column; }
+  .formulario_campo label {
+    font-size: 16px;
+    font-weight: 700;
+    color: #525252;
+    margin-bottom: 8px; }
+  .formulario_campo input, .formulario_campo select {
+    height: 40px;
+    width: 592px;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid #bbbbbb;
+    margin-bottom: 32px; }
+  .formulario_campo select {
+    cursor: pointer;
+    width: 624px;
+    appearance: none;
+    background: url(../../assets/img/arrow_select.svg) no-repeat right 10px top 50%; }
+    .formulario_campo select:focus, .formulario_campo select:hover {
+      outline: none;
+      border: 1px solid #6B6B6B; }
+    .formulario_campo select li {
+      font-size: 45px; }
+
+.textarea_formatacao {
+  border-radius: 5px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  border: 1px solid #bbbbbb;
+  resize: none;
+  padding: 16px;
+  appearance: none;
+  margin-bottom: 32px; }
 
 #head-main {
   height: 148px;
@@ -792,3 +840,115 @@ nav {
       #lojasOficiais_container .lojasOficiais_container__logo-lojas .lojasOficiais_categoria-button h3 {
         font-size: 24px;
         color: #6B6B6B; }
+
+main {
+  background-color: #E4E4E4;
+  height: 1380px; }
+
+.cadastrarProduto_logo-contato {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px; }
+  .cadastrarProduto_logo-contato a {
+    text-decoration: none;
+    color: #3483FA;
+    font-weight: 700;
+    height: 20px; }
+    .cadastrarProduto_logo-contato a:hover {
+      color: #106DF9; }
+
+.cadastrarProduto_container {
+  width: 1072px;
+  height: 1150px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .cadastrarProduto_container .cadastrarProduto_informacao h2 {
+    padding-top: 42px;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #5F1AC1;
+    text-align: center; }
+  .cadastrarProduto_container .cadastrarProduto_informacao p {
+    margin-top: 16px;
+    color: #8D8C8C;
+    text-align: center; }
+  .cadastrarProduto_container .popup_cadastrarConta {
+    width: 592px;
+    height: 72px;
+    background-color: white;
+    box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 6px solid #5F1AC1;
+    margin-top: 32px; }
+    .cadastrarProduto_container .popup_cadastrarConta p {
+      font-size: 14px;
+      color: #421286;
+      line-height: 150%;
+      width: 384px;
+      margin-left: 56px; }
+    .cadastrarProduto_container .popup_cadastrarConta a {
+      visibility: hidden;
+      width: 22px;
+      height: 22px;
+      background-color: #F93030;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      color: white;
+      text-decoration: none;
+      margin-right: 24px;
+      transition: 0.15s; }
+      .cadastrarProduto_container .popup_cadastrarConta a:hover {
+        background-color: #c51313; }
+  .cadastrarProduto_container form {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column; }
+    .cadastrarProduto_container form .container_preco-precoPromocional {
+      display: flex;
+      justify-content: space-between;
+      width: 624px; }
+      .cadastrarProduto_container form .container_preco-precoPromocional .cadastrarProduto_preco {
+        width: 260px; }
+      .cadastrarProduto_container form .container_preco-precoPromocional .cadastrarProduto_precoPromocional {
+        width: 260px; }
+    .cadastrarProduto_container form .cadastrarProduto_container-button {
+      align-self: flex-end;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 16px;
+      width: 384px; }
+    .cadastrarProduto_container form .button_etapa-1-cadastrarProduto {
+      align-self: flex-end; }
+  .cadastrarProduto_container .cadastrarProduto_migalhadepao {
+    display: flex;
+    justify-content: space-between;
+    width: 678px; }
+    .cadastrarProduto_container .cadastrarProduto_migalhadepao .CadastrarProduto_etapa {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 72px;
+      border-radius: 100%;
+      width: 120px;
+      height: 120px; }
+      .cadastrarProduto_container .cadastrarProduto_migalhadepao .CadastrarProduto_etapa img {
+        margin-bottom: 6px; }
+      .cadastrarProduto_container .cadastrarProduto_migalhadepao .CadastrarProduto_etapa h4 {
+        font-weight: 700;
+        color: #FD7E02; }
+    .cadastrarProduto_container .cadastrarProduto_migalhadepao .etapaNaoAlcancada {
+      opacity: 30%;
+      background: none; }

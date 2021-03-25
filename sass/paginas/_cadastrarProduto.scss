@@ -1,0 +1,153 @@
+main {
+  background-color: #E4E4E4;
+  height: 1380px;
+}
+
+.cadastrarProduto_logo-contato {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+
+  a {
+    text-decoration: none;
+    color: $blue-daltonism;
+    font-weight: 700;
+    height: 20px;
+
+    &:hover {
+      color: $blue-daltonism-hover;
+    }
+  }
+}
+
+.cadastrarProduto_container {
+  width: 1072px;
+  height: 1150px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .cadastrarProduto_informacao {
+    
+    h2 {
+      padding-top: 42px;
+      @include title-4;
+      color: $purple-light;
+      text-align: center;
+    }
+    
+    p {
+      margin-top: 16px;
+      color: $gray-4;
+      text-align: center;
+    }
+  }
+
+  .popup_cadastrarConta {
+    width: 592px;
+    height: 72px;
+    background-color: white;
+    box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 6px solid $purple-light;
+    margin-top: 32px;
+
+    p {
+      font-size: 14px;
+      color: $purple;
+      line-height: 150%;
+      width: 384px;
+      margin-left: 56px;
+    }
+
+    a {
+      visibility: hidden; // Apagar esse linha para exibir X
+      width: 22px;
+      height: 22px;
+      background-color: $alert;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      color: white;
+      text-decoration: none;
+      margin-right: 24px;
+      transition: 0.15s;
+
+      &:hover {
+        background-color: rgb(197, 19, 19);
+      }
+    }
+  }
+
+  form {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+
+    .container_preco-precoPromocional {
+      display: flex;
+      justify-content: space-between;
+      width: (592px+32px);
+
+      .cadastrarProduto_preco {
+        width: 260px;
+      }
+
+      .cadastrarProduto_precoPromocional {
+        width: 260px;
+      }
+    }
+
+    .cadastrarProduto_container-button {
+      align-self: flex-end;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 16px;
+      width: 384px;
+    }
+
+    .button_etapa-1-cadastrarProduto {
+        align-self: flex-end;
+      }
+  }
+
+  .cadastrarProduto_migalhadepao {
+    display: flex;
+    justify-content: space-between;
+    width: 678px;
+
+    .CadastrarProduto_etapa{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 72px;
+      border-radius: 100%;
+      width: 120px;
+      height: 120px;
+
+      img {
+        margin-bottom: 6px;
+      }
+
+      h4 {
+        font-weight: 700;
+        color: $orange;
+      }
+    }
+
+    .etapaNaoAlcancada {
+      opacity: 30%;
+      background: none;
+    }
+  }
+}

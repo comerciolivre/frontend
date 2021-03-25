@@ -11,10 +11,25 @@
   height: 40px;
   color: #fff;
   font-weight: 700;
-  transition: 0.15s ease-in;
+  transition: 0.1s ease-in;
 
   &:hover {
     background-color: $blue-daltonism-hover;
+  }
+}
+
+.button-normal-sm-outline {
+  border: 2px solid $blue-daltonism;
+  background-color: white;
+  width: 176px;
+  height: 40px;
+  color: $blue-daltonism;
+  font-weight: 700;
+  transition: 0.1s ease-in;
+
+  &:hover {
+    border: 2.5px solid $blue-daltonism-hover;
+    color: $blue-daltonism-hover;
   }
 }
 
@@ -34,12 +49,12 @@
 // botão especifico
 .button-comprar { // finalizar compra
   background-color: $blue-daltonism;
-  width: 248px;
+  width: 197px;
   height: 64px;
   color: #fff;
   font-weight: 700;
   font-size: 18px;
-  transition: 0.15s ease-in;
+  transition: 0.1s ease-in;
 
   &:hover {
     background-color: $blue-daltonism-hover;
@@ -48,12 +63,12 @@
 
 .button-carrinho { //adicionar ao carrinho
   border: solid 2px $blue-daltonism;
-  width: 248px;
+  width: 197px;
   height: 64px;
   color: $blue-daltonism;
   font-weight: 700;
   font-size: 18px;
-  transition: 0.15s ease-in;
+  transition: 0.1s ease-in;
 
   &:hover {
     border: solid 2px $blue-daltonism-hover;
@@ -68,7 +83,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 18px;
-  transition: 0.15s ease-in;
+  transition: 0.1s ease-in;
 
   &:hover {
     background-color: $orange-dark;
@@ -82,7 +97,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 12px;
-  transition: 0.15s ease-in;
+  transition: 0.1s ease-in;
 
   &:hover {
     background-color: $orange-dark;
@@ -95,7 +110,7 @@
   height: 44px;
   color: #fff;
   font-weight: 700;
-  transition: 0.15s ease-in;
+  transition: 0.1s ease-in;
 
   &:hover {
     background-color: $orange-dark;
@@ -109,7 +124,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 12px;
-  transition: 0.15s ease-in;
+  transition: 0.1s ease-in;
 
   &:hover {
     background-color: $orange-dark;
@@ -120,7 +135,7 @@
   width: 122px;
   height: 44px;
   background-color: #302626;
-  transition: 0.15s;
+  transition: 0.1s;
 
   &:hover {
     background-color: #2b2222;
