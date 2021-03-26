@@ -156,6 +156,19 @@
 
   // etapa - 3 - Fotos e vídeos
 
+.container_conteudo_etapa_3 {
+  display: flex;
+  flex-direction: column;
+
+  .cadastrarProduto_3_container-button {
+    align-self: flex-end;
+    margin-top: 64px;
+    
+    button {
+      margin-left: 32px;
+    }
+  }
+
   .cadastrarProduto_container-interface {
     width: 693px;
     height: 488px;
@@ -233,5 +246,120 @@
       height: 186px;
       background-color: rgb(65, 65, 65);
     }
+  }
+  }
+
+  // *********************************
+
+  // etapa - 4 - Tipos de anúncio
+
+.tipoAnuncio_container_conteudo {
+  width: 920px;
+
+  display: flex;
+  flex-direction: column;
+
+  .tiposAnuncio_container-card {
+    width: 920px;
+    height: 500px;
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+
+    .tiposAnuncio_card {
+      width: 280px;
+      height: 470px;
+      border: 1px solid #d6cbe5;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      text-decoration: none;
+
+      h3 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #cab3eb;
+        text-align: center;
+        width: 130px;
+      }
+
+      p {
+        text-align: center;
+        font-size: 14px;
+        color: #cab3eb;
+        line-height: 140%;
+        width: 222px;
+      }
+
+      h4 {
+        font-size: 48px;
+        font-weight: 700;
+        color: $orange;
+      }
+
+      .container-infoPagamento_tipoAnuncio {
+        width: 240px;
+        height: 86px;
+        margin-bottom: 32px;
+
+        h5 {
+          font-size: 14px;
+          color: $gray-1;
+          font-weight: 700;
+          text-align: center;
+          align-self: center;
+          margin-bottom: 20px;
+        }
+
+        .tipoAnuncio_container-preco {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 8px;
+
+          h6 {
+            font-size: 14px;
+            font-weight: 700;
+            color: $purple-light;
+          }
+
+          .tipoAnuncio_preco {
+            width: auto;
+            font-weight: 700;
+          }
+
+          .recebe {
+            color: $success;
+          }
+
+          .paga {
+            color: $alert;
+          }
+        }
+      }
+    }
+
+    .tipoAnuncio_card_selecionado {
+      border: 4px solid $success;
+      
+      h3 {
+        color: $purple-light;
+      }
+
+      p {
+        color: $purple-light;
+      }
+    }
+  }
+
+  .tipoeAnuncio_container-button {
+    align-self: flex-end;
+
+    button {
+      margin-top: 64px;
+      margin-left: 32px;
+    }
+  }
   }
 }

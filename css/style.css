@@ -168,6 +168,9 @@ body {
     font-weight: 700;
     color: #525252;
     margin-bottom: 8px; }
+    .formulario_campo label span {
+      font-size: 12px;
+      color: #8D8C8C; }
   .formulario_campo input, .formulario_campo select {
     height: 40px;
     width: 592px;
@@ -952,64 +955,145 @@ nav {
     .cadastrarProduto_container .cadastrarProduto_migalhadepao .etapaNaoAlcancada {
       opacity: 30%;
       background: none; }
-  .cadastrarProduto_container .cadastrarProduto_container-interface {
-    width: 693px;
-    height: 488px;
-    background-color: #EEE9F4;
-    border-radius: 5px;
-    margin-top: 64px;
-    padding: 16px;
+  .cadastrarProduto_container .container_conteudo_etapa_3 {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around; }
-    .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar {
-      width: 661px;
-      height: 186px;
+    flex-direction: column; }
+    .cadastrarProduto_container .container_conteudo_etapa_3 .cadastrarProduto_3_container-button {
+      align-self: flex-end;
+      margin-top: 64px; }
+      .cadastrarProduto_container .container_conteudo_etapa_3 .cadastrarProduto_3_container-button button {
+        margin-left: 32px; }
+    .cadastrarProduto_container .container_conteudo_etapa_3 .cadastrarProduto_container-interface {
+      width: 693px;
+      height: 488px;
+      background-color: #EEE9F4;
+      border-radius: 5px;
+      margin-top: 64px;
+      padding: 16px;
       display: flex;
-      justify-content: space-between;
-      align-items: center; }
-      .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar .adicionarImagemProduto {
-        width: 140px;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around; }
+      .cadastrarProduto_container .container_conteudo_etapa_3 .cadastrarProduto_container-interface .cadastrarProduto_adicionar {
+        width: 661px;
         height: 186px;
-        background-color: white;
-        display: flex;
-        justify-content: center; }
-        .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar .adicionarImagemProduto a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          text-decoration: none;
-          box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.1);
-          transition: 0.2s; }
-          .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar .adicionarImagemProduto a:hover {
-            box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2); }
-          .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar .adicionarImagemProduto a p {
-            margin-top: 16px;
-            font-size: 14px;
-            font-weight: 700;
-            color: #3483FA;
-            text-align: center;
-            line-height: 115%; }
-      .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar .container_preview_imagem {
-        width: 500px;
-        height: 188px;
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap; }
-        .cadastrarProduto_container .cadastrarProduto_container-interface .cadastrarProduto_adicionar .container_preview_imagem .preview_imagem {
-          width: 72px;
-          height: 72px;
+        align-items: center; }
+        .cadastrarProduto_container .container_conteudo_etapa_3 .cadastrarProduto_container-interface .cadastrarProduto_adicionar .adicionarImagemProduto {
+          width: 140px;
+          height: 186px;
           background-color: white;
           display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-left: 12px;
-          margin-top: 12px;
-          margin-bottom: 12px; }
-    .cadastrarProduto_container .cadastrarProduto_container-interface .containerVideo_cadastrarProduto {
-      width: 400px;
-      margin: 0 auto;
-      height: 186px;
-      background-color: #414141; }
+          justify-content: center; }
+          .cadastrarProduto_container .container_conteudo_etapa_3 .cadastrarProduto_container-interface .cadastrarProduto_adicionar .adicionarImagemProduto a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-decoration: none;
+            box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.1);
+            transition: 0.2s; }
+            .cadastrarProduto_container .container_conteudo_etapa_3 .cadastrarProduto_container-interface .cadastrarProduto_adicionar .adicionarImagemProduto a:hover {
+              box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2); }
+            .cadastrarProduto_container .container_conteudo_etapa_3 .cadastrarProduto_container-interface .cadastrarProduto_adicionar .adicionarImagemProduto a p {
+              margin-top: 16px;
+              font-size: 14px;
+              font-weight: 700;
+              color: #3483FA;
+              text-align: center;
+              line-height: 115%; }
+        .cadastrarProduto_container .container_conteudo_etapa_3 .cadastrarProduto_container-interface .cadastrarProduto_adicionar .container_preview_imagem {
+          width: 500px;
+          height: 188px;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap; }
+          .cadastrarProduto_container .container_conteudo_etapa_3 .cadastrarProduto_container-interface .cadastrarProduto_adicionar .container_preview_imagem .preview_imagem {
+            width: 72px;
+            height: 72px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 12px;
+            margin-top: 12px;
+            margin-bottom: 12px; }
+      .cadastrarProduto_container .container_conteudo_etapa_3 .cadastrarProduto_container-interface .containerVideo_cadastrarProduto {
+        width: 400px;
+        margin: 0 auto;
+        height: 186px;
+        background-color: #414141; }
+  .cadastrarProduto_container .tipoAnuncio_container_conteudo {
+    width: 920px;
+    display: flex;
+    flex-direction: column; }
+    .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card {
+      width: 920px;
+      height: 500px;
+      margin-top: 82px;
+      display: flex;
+      justify-content: space-between; }
+      .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tiposAnuncio_card {
+        width: 280px;
+        height: 470px;
+        border: 1px solid #d6cbe5;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none; }
+        .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tiposAnuncio_card h3 {
+          font-size: 24px;
+          font-weight: 700;
+          color: #cab3eb;
+          text-align: center;
+          width: 130px; }
+        .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tiposAnuncio_card p {
+          text-align: center;
+          font-size: 14px;
+          color: #cab3eb;
+          line-height: 140%;
+          width: 222px; }
+        .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tiposAnuncio_card h4 {
+          font-size: 48px;
+          font-weight: 700;
+          color: #FD7E02; }
+        .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tiposAnuncio_card .container-infoPagamento_tipoAnuncio {
+          width: 240px;
+          height: 86px;
+          margin-bottom: 32px; }
+          .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tiposAnuncio_card .container-infoPagamento_tipoAnuncio h5 {
+            font-size: 14px;
+            color: #2B2833;
+            font-weight: 700;
+            text-align: center;
+            align-self: center;
+            margin-bottom: 20px; }
+          .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tiposAnuncio_card .container-infoPagamento_tipoAnuncio .tipoAnuncio_container-preco {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px; }
+            .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tiposAnuncio_card .container-infoPagamento_tipoAnuncio .tipoAnuncio_container-preco h6 {
+              font-size: 14px;
+              font-weight: 700;
+              color: #5F1AC1; }
+            .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tiposAnuncio_card .container-infoPagamento_tipoAnuncio .tipoAnuncio_container-preco .tipoAnuncio_preco {
+              width: auto;
+              font-weight: 700; }
+            .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tiposAnuncio_card .container-infoPagamento_tipoAnuncio .tipoAnuncio_container-preco .recebe {
+              color: #33B427; }
+            .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tiposAnuncio_card .container-infoPagamento_tipoAnuncio .tipoAnuncio_container-preco .paga {
+              color: #F93030; }
+      .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tipoAnuncio_card_selecionado {
+        border: 4px solid #33B427; }
+        .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tipoAnuncio_card_selecionado h3 {
+          color: #5F1AC1; }
+        .cadastrarProduto_container .tipoAnuncio_container_conteudo .tiposAnuncio_container-card .tipoAnuncio_card_selecionado p {
+          color: #5F1AC1; }
+    .cadastrarProduto_container .tipoAnuncio_container_conteudo .tipoeAnuncio_container-button {
+      align-self: flex-end; }
+      .cadastrarProduto_container .tipoAnuncio_container_conteudo .tipoeAnuncio_container-button button {
+        margin-top: 64px;
+        margin-left: 32px; }
