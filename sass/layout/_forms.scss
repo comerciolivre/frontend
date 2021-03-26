@@ -1,0 +1,52 @@
+.formulario_campo {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-size: 16px;
+    font-weight: 700;
+    color: $gray-2;
+    margin-bottom: 8px;
+
+    span {
+      font-size: 12px;
+      color: $gray-4;
+    }
+  }
+
+  input, select {
+    height: 40px;
+    width: 592px;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid rgb(187, 187, 187);
+    margin-bottom: 32px;
+  }
+
+  select {
+    cursor: pointer;
+    width: (592px+32px);
+    appearance: none;
+    background: url(../../assets/img/arrow_select.svg) no-repeat right 10px top 50%;
+
+    &:focus, &:hover {
+      outline: none;
+      border: 1px solid $gray-3;
+    }
+
+    li {
+      font-size: 45px;
+      }
+  }
+}
+
+.textarea_formatacao {
+  border-radius: 5px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(187, 187, 187);
+  resize: none;
+  padding: 16px;
+  appearance: none;
+  margin-bottom: 32px;
+}

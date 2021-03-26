@@ -1,0 +1,365 @@
+.main_cadastrarProduto {
+  background-color: #E4E4E4;
+  height: 1380px;
+}
+
+.cadastrarProduto_logo-contato {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+
+  a {
+    text-decoration: none;
+    color: $blue-daltonism;
+    font-weight: 700;
+    height: 20px;
+
+    &:hover {
+      color: $blue-daltonism-hover;
+    }
+  }
+}
+
+.cadastrarProduto_container {
+  width: 1072px;
+  height: 1150px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .cadastrarProduto_informacao {
+    
+    h2 {
+      padding-top: 42px;
+      @include title-4;
+      color: $purple-light;
+      text-align: center;
+    }
+    
+    p {
+      margin-top: 16px;
+      color: $gray-4;
+      text-align: center;
+    }
+  }
+
+  .popup_cadastrarConta {
+    width: 592px;
+    height: 72px;
+    background-color: white;
+    box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 6px solid $purple-light;
+    margin-top: 32px;
+
+    p {
+      font-size: 14px;
+      color: $purple;
+      line-height: 150%;
+      width: 384px;
+      margin-left: 56px;
+    }
+
+    a {
+      visibility: hidden; // Apagar esse linha para exibir X
+      width: 22px;
+      height: 22px;
+      background-color: $alert;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      color: white;
+      text-decoration: none;
+      margin-right: 24px;
+      transition: 0.15s;
+
+      &:hover {
+        background-color: rgb(197, 19, 19);
+      }
+    }
+  }
+
+  form {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+
+    .container_preco-precoPromocional {
+      display: flex;
+      justify-content: space-between;
+      width: (592px+32px);
+
+      .cadastrarProduto_preco {
+        width: 260px;
+      }
+
+      .cadastrarProduto_precoPromocional {
+        width: 260px;
+      }
+    }
+
+    .cadastrarProduto_container-button {
+      align-self: flex-end;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 16px;
+      width: 384px;
+    }
+
+    .button_etapa-1-cadastrarProduto {
+        align-self: flex-end;
+      }
+  }
+
+  .cadastrarProduto_migalhadepao {
+    display: flex;
+    justify-content: space-between;
+    width: 678px;
+
+    .CadastrarProduto_etapa{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 72px;
+      border-radius: 100%;
+      width: 120px;
+      height: 120px;
+
+      img {
+        margin-bottom: 6px;
+      }
+
+      h4 {
+        font-weight: 700;
+        color: $orange;
+      }
+    }
+
+    .etapaNaoAlcancada {
+      opacity: 30%;
+      background: none;
+    }
+  }
+
+
+  // *********************************
+
+  // etapa - 3 - Fotos e vídeos
+
+.container_conteudo_etapa_3 {
+  display: flex;
+  flex-direction: column;
+
+  .cadastrarProduto_3_container-button {
+    align-self: flex-end;
+    margin-top: 64px;
+    
+    button {
+      margin-left: 32px;
+    }
+  }
+
+  .cadastrarProduto_container-interface {
+    width: 693px;
+    height: 488px;
+    background-color: #EEE9F4;
+    border-radius: 5px;
+    margin-top: 64px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .cadastrarProduto_adicionar {
+      width: 661px;
+      height: 186px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .adicionarImagemProduto {
+        width: 140px;
+        height: 186px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+
+        a {
+          display: flex;
+          justify-content: center;          
+          align-items: center;
+          flex-direction: column;
+          text-decoration: none;
+          box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.1);
+          transition: 0.2s;
+
+          &:hover {            
+            box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2);
+          }
+
+          p  {
+            margin-top: 16px;
+            font-size: 14px;
+            font-weight: 700;
+            color: $blue-daltonism;
+            text-align: center;
+            line-height: 115%;
+          }
+        }
+      }
+
+        .container_preview_imagem {
+          width: 500px;
+          height: 188px;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          .preview_imagem {
+            width: 72px;
+            height: 72px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 12px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+          }
+        }
+    }
+
+    .containerVideo_cadastrarProduto {
+      width: 400px;
+      margin: 0 auto;
+      height: 186px;
+      background-color: rgb(65, 65, 65);
+    }
+  }
+  }
+
+  // *********************************
+
+  // etapa - 4 - Tipos de anúncio
+
+.tipoAnuncio_container_conteudo {
+  width: 920px;
+
+  display: flex;
+  flex-direction: column;
+
+  .tiposAnuncio_container-card {
+    width: 920px;
+    height: 500px;
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+
+    .tiposAnuncio_card {
+      width: 280px;
+      height: 470px;
+      border: 1px solid #d6cbe5;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      text-decoration: none;
+
+      h3 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #cab3eb;
+        text-align: center;
+        width: 130px;
+      }
+
+      p {
+        text-align: center;
+        font-size: 14px;
+        color: #cab3eb;
+        line-height: 140%;
+        width: 222px;
+      }
+
+      h4 {
+        font-size: 48px;
+        font-weight: 700;
+        color: $orange;
+      }
+
+      .container-infoPagamento_tipoAnuncio {
+        width: 240px;
+        height: 86px;
+        margin-bottom: 32px;
+
+        h5 {
+          font-size: 14px;
+          color: $gray-1;
+          font-weight: 700;
+          text-align: center;
+          align-self: center;
+          margin-bottom: 20px;
+        }
+
+        .tipoAnuncio_container-preco {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 8px;
+
+          h6 {
+            font-size: 14px;
+            font-weight: 700;
+            color: $purple-light;
+          }
+
+          .tipoAnuncio_preco {
+            width: auto;
+            font-weight: 700;
+          }
+
+          .recebe {
+            color: $success;
+          }
+
+          .paga {
+            color: $alert;
+          }
+        }
+      }
+    }
+
+    .tipoAnuncio_card_selecionado {
+      border: 4px solid $success;
+      
+      h3 {
+        color: $purple-light;
+      }
+
+      p {
+        color: $purple-light;
+      }
+    }
+  }
+
+  .tipoeAnuncio_container-button {
+    align-self: flex-end;
+
+    button {
+      margin-top: 64px;
+      margin-left: 32px;
+    }
+  }
+  }
+}
