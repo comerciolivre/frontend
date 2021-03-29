@@ -81,11 +81,10 @@
 
 .banner-meio {
   margin-top: 80px;
-  width: 1440px;
   height: 286px;
   display: flex;
   align-items: flex-end;
-  background-image: url(../../assets/img/banner-pequeno-2.png);
+  background: url(../../assets/img/banner-pequeno-2.png) center center;
   
   button {
     margin-bottom: 38px;
@@ -191,4 +190,33 @@
     height: 200px;
     background-color: yellow;
   }
+}
+
+.descricao_mapa {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 80px;
+
+  .descricao_empresa {
+    width: 480px;
+    height: 208px;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #DBCDEF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 126px;
+      height: 90px;
+    }
+
+    p {
+      width: 272px;
+      @include body-2;
+      color: $gray-4;
+    }
+  }  
 }

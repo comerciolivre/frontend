@@ -1,0 +1,78 @@
+footer {    
+    border-top: 1px solid $orange;
+    margin-top: 64px;
+}
+
+.footer_atalhos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 64px;
+
+    .footer_atalhos_container_info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 64px;
+
+        h6 {
+            font-size: 16px;
+            font-weight: 700;
+            color: $gray-1;
+        }
+
+        a {
+            @include body-1;
+            color: $blue-daltonism;
+            text-decoration: none;
+            transition: 0.15s;
+
+            &:hover {
+                color: $blue-daltonism-hover;
+                transform: scale(1.02);
+            }
+        }
+
+        .link_footer_ajuste {
+            margin-top: 18px;
+        }
+    }
+}
+
+// ****** FOOTER - ÁREA LARANJA **************
+
+.footer_sobre_empresa {
+    background-color: $orange;
+    width: 100%;
+    height: 154px;
+
+    .sobre_empresa_links {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        a {
+            font-size: 16px;
+            font-weight: 700;
+            color: #FFFFFF;
+            text-decoration: none;
+            margin-top: 32px;
+            transition: 0.15s;
+
+            &:hover {
+                color: $purple;
+            }
+        }
+    }
+
+    .copyright {
+        width: 827px;
+        margin: 0 auto;
+
+        .copyright-text {
+            font-size: 14px;
+            line-height: 150%;
+            margin-top: 32px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+    }
+}
