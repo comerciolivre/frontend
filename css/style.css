@@ -528,7 +528,8 @@ nav {
     z-index: 1; }
     .container-login .container-left-login .texto-login {
       margin-top: 60vh;
-      width: 384px; }
+      width: 384px;
+      margin-left: 32px; }
       .container-login .container-left-login .texto-login h1 {
         font-size: 64px;
         color: white;
@@ -1097,3 +1098,42 @@ nav {
       .cadastrarProduto_container .tipoAnuncio_container_conteudo .tipoeAnuncio_container-button button {
         margin-top: 64px;
         margin-left: 32px; }
+
+.contato_container {
+  width: 100%;
+  height: 1050px;
+  background-color: #F2EEF7;
+  padding-top: 64px; }
+  .contato_container .contato_info_container {
+    margin: 0 auto;
+    width: 592px;
+    height: 737px;
+    background-color: white;
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+    align-items: center; }
+    .contato_container .contato_info_container .contato_titulo_container {
+      align-self: flex-start;
+      margin-left: -16px; }
+      .contato_container .contato_info_container .contato_titulo_container .contato_titulo {
+        font-size: 48px;
+        font-weight: 700;
+        color: #2B2833; }
+      .contato_container .contato_info_container .contato_titulo_container p {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #8D8C8C;
+        width: 384px;
+        margin-top: 8px; }
+    .contato_container .contato_info_container .contato_formulario {
+      margin-top: 64px; }
+      .contato_container .contato_info_container .contato_formulario form {
+        display: flex;
+        flex-direction: column; }
+      .contato_container .contato_info_container .contato_formulario textarea {
+        resize: none; }
+      .contato_container .contato_info_container .contato_formulario button {
+        align-self: flex-end;
+        margin-top: 32px; }
