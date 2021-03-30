@@ -489,7 +489,7 @@ nav {
   height: 286px;
   display: flex;
   align-items: flex-end;
-  background: url(../../assets/img/banner-pequeno-2.png) center center; }
+  background: url(../../assets/img/banner-pequeno-2.png) no-repeat center center; }
   .banner-meio button {
     margin-bottom: 38px; }
 
@@ -846,11 +846,12 @@ nav {
     font-size: 48px;
     font-weight: 700;
     color: white;
-    padding-top: 54px; }
+    padding-top: 54px;
+    margin-left: 64px; }
   .lojasOficiais_banner p {
     font-size: 14px;
     color: white;
-    margin-left: 40px;
+    margin-left: 140px;
     margin-top: 20px;
     width: 240px;
     line-height: 150%; }
@@ -1216,3 +1217,190 @@ nav {
       .contato_container .contato_info_container .contato_formulario button {
         align-self: flex-end;
         margin-top: 32px; }
+
+.pesquisa_main {
+  margin-top: 82px;
+  display: flex;
+  justify-content: space-between; }
+  .pesquisa_main .pesquisa_left_filtro {
+    background-color: #F2EEF7;
+    padding: 32px;
+    width: 240px; }
+    .pesquisa_main .pesquisa_left_filtro h3 {
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 700;
+      color: #2B2833;
+      margin-bottom: 12px; }
+    .pesquisa_main .pesquisa_left_filtro ul {
+      margin-bottom: 20px; }
+      .pesquisa_main .pesquisa_left_filtro ul li a {
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #525252;
+        transition: 0.15s; }
+        .pesquisa_main .pesquisa_left_filtro ul li a:hover {
+          font-weight: 700;
+          color: #FD7E02; }
+    .pesquisa_main .pesquisa_left_filtro .pesquisa_preco {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .pesquisa_main .pesquisa_left_filtro .pesquisa_preco input {
+        width: 68px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #8D8C8C;
+        padding-left: 12px;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400; }
+      .pesquisa_main .pesquisa_left_filtro .pesquisa_preco button {
+        width: 28px;
+        height: 28px;
+        background-color: #3483FA;
+        border: none;
+        border-radius: 100%;
+        transition: 0.15s;
+        cursor: pointer; }
+        .pesquisa_main .pesquisa_left_filtro .pesquisa_preco button:hover {
+          background-color: #106DF9; }
+  .pesquisa_main .pesquisa_container_produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .pesquisa_main .pesquisa_container_produtos .pesquisa_filtro_produtos {
+      align-self: flex-end;
+      width: 384px;
+      height: 40px;
+      display: flex;
+      margin-right: -60px;
+      align-items: center; }
+      .pesquisa_main .pesquisa_container_produtos .pesquisa_filtro_produtos p {
+        font-size: 16px;
+        line-height: 125%;
+        font-weight: 700;
+        color: #2B2833;
+        margin-right: 8px; }
+      .pesquisa_main .pesquisa_container_produtos .pesquisa_filtro_produtos select {
+        width: 222px;
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 16px;
+        border: 1px solid #bbbbbb;
+        appearance: none;
+        background: url(../../assets/img/arrow_select.svg) no-repeat right 10px top 50%; }
+    .pesquisa_main .pesquisa_container_produtos .pesquisa_produtos {
+      width: 904px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+
+.ofertasDia_banner {
+  background: url(../../assets/img/banner_ofertas_dia.png) no-repeat center center #3483FA;
+  width: 100%;
+  height: 200px; }
+  .ofertasDia_banner h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    padding-top: 54px;
+    margin-left: 64px; }
+  .ofertasDia_banner p {
+    font-size: 14px;
+    color: white;
+    margin-left: 140px;
+    margin-top: 20px;
+    width: 240px;
+    line-height: 150%; }
+
+.ofertasDia_main {
+  margin-top: 82px;
+  display: flex;
+  justify-content: space-between; }
+  .ofertasDia_main .ofertasDia_left_filtro {
+    background-color: #F2EEF7;
+    padding: 32px;
+    width: 240px; }
+    .ofertasDia_main .ofertasDia_left_filtro h3 {
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 700;
+      color: #2B2833;
+      margin-bottom: 12px; }
+    .ofertasDia_main .ofertasDia_left_filtro ul {
+      margin-bottom: 20px; }
+      .ofertasDia_main .ofertasDia_left_filtro ul li a {
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #525252;
+        transition: 0.15s; }
+        .ofertasDia_main .ofertasDia_left_filtro ul li a:hover {
+          font-weight: 700;
+          color: #FD7E02; }
+    .ofertasDia_main .ofertasDia_left_filtro .ofertasDia_preco {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .ofertasDia_main .ofertasDia_left_filtro .ofertasDia_preco input {
+        width: 68px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #8D8C8C;
+        padding-left: 12px;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400; }
+      .ofertasDia_main .ofertasDia_left_filtro .ofertasDia_preco button {
+        width: 28px;
+        height: 28px;
+        background-color: #3483FA;
+        border: none;
+        border-radius: 100%;
+        transition: 0.15s;
+        cursor: pointer; }
+        .ofertasDia_main .ofertasDia_left_filtro .ofertasDia_preco button:hover {
+          background-color: #106DF9; }
+  .ofertasDia_main .ofertasDia_container_produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .ofertasDia_main .ofertasDia_container_produtos .ofertasDia_filtro_produtos {
+      align-self: flex-end;
+      width: 384px;
+      height: 40px;
+      display: flex;
+      margin-right: -60px;
+      align-items: center; }
+      .ofertasDia_main .ofertasDia_container_produtos .ofertasDia_filtro_produtos p {
+        font-size: 16px;
+        line-height: 125%;
+        font-weight: 700;
+        color: #2B2833;
+        margin-right: 8px; }
+      .ofertasDia_main .ofertasDia_container_produtos .ofertasDia_filtro_produtos select {
+        width: 222px;
+        height: 40px;
+        border-radius: 5px;
+        padding-left: 16px;
+        border: 1px solid #bbbbbb;
+        appearance: none;
+        background: url(../../assets/img/arrow_select.svg) no-repeat right 10px top 50%; }
+    .ofertasDia_main .ofertasDia_container_produtos .ofertasDia_produtos {
+      width: 904px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+
+.ofertasDia_container_outras-ofertas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px; }
+  .ofertasDia_container_outras-ofertas .ofertasDia_outras-ofertas {
+    width: 592px;
+    height: 260px;
+    background-color: #FFE1C6; }
