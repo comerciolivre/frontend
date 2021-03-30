@@ -1,0 +1,103 @@
+.pesquisa_main {
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+
+    .pesquisa_left_filtro {
+        background-color: $purple-super-light;
+        padding: 32px;
+        width: 240px;
+
+        h3 {
+            @include title-5;
+            color: $gray-1;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+
+            li {
+
+                a{
+                    text-decoration: none;
+                    @include body-1;
+                    color: $gray-2;
+                    transition: 0.15s;
+
+                    &:hover {
+                        font-weight: 700;
+                        color: $orange;
+                    }
+                }
+            }
+        }
+
+        .pesquisa_preco {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            input {
+                width: 68px;
+                height: 40px;
+                border-radius: 5px;
+                border: 1px solid $gray-4;
+                padding-left: 12px;
+                @include body-2;
+            }
+
+            button {
+                width: 28px;
+                height: 28px;
+                background-color: $blue-daltonism;
+                border: none;
+                border-radius: 100%;
+                transition: 0.15s;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $blue-daltonism-hover;                
+                }
+            }
+        }
+    }
+
+    .pesquisa_container_produtos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .pesquisa_filtro_produtos {
+            align-self: flex-end;
+            width: 384px;
+            height: 40px;
+            display: flex;
+            margin-right: -60px;
+            align-items: center;
+
+            p {
+                @include title-6;
+                color: $gray-1;
+                margin-right: 8px;
+            }
+
+            select {
+                width: 222px;
+                height: 40px;
+                border-radius: 5px;
+                padding-left: 16px;
+                border: 1px solid rgb(187, 187, 187);
+                appearance: none;
+                background: url(../../assets/img/arrow_select.svg) no-repeat right 10px top 50%;
+            }
+        }
+
+        .pesquisa_produtos {
+            width: 904px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+}

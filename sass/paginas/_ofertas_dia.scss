@@ -1,0 +1,145 @@
+
+// ******** BANNER *************
+
+.ofertasDia_banner {
+    background:url(../../assets/img/banner_ofertas_dia.png) no-repeat center center
+    $blue-daltonism;
+    width: 100%;
+    height: 200px;
+  
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+      color: white;
+      padding-top: 54px;
+      margin-left: 64px;
+    }
+  
+    p {
+      font-size: 14px;
+      color: white;
+      margin-left: 140px;
+      margin-top: 20px;
+      width: 240px;
+      line-height: 150%;
+    }
+  }
+
+// ************ MAIN **************
+
+
+.ofertasDia_main {
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+
+    .ofertasDia_left_filtro {
+        background-color: $purple-super-light;
+        padding: 32px;
+        width: 240px;
+
+        h3 {
+            @include title-5;
+            color: $gray-1;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+
+            li {
+
+                a{
+                    text-decoration: none;
+                    @include body-1;
+                    color: $gray-2;
+                    transition: 0.15s;
+
+                    &:hover {
+                        font-weight: 700;
+                        color: $orange;
+                    }
+                }
+            }
+        }
+
+        .ofertasDia_preco {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            input {
+                width: 68px;
+                height: 40px;
+                border-radius: 5px;
+                border: 1px solid $gray-4;
+                padding-left: 12px;
+                @include body-2;
+            }
+
+            button {
+                width: 28px;
+                height: 28px;
+                background-color: $blue-daltonism;
+                border: none;
+                border-radius: 100%;
+                transition: 0.15s;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $blue-daltonism-hover;                
+                }
+            }
+        }
+    }
+
+    .ofertasDia_container_produtos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .ofertasDia_filtro_produtos {
+            align-self: flex-end;
+            width: 384px;
+            height: 40px;
+            display: flex;
+            margin-right: -60px;
+            align-items: center;
+
+            p {
+                @include title-6;
+                color: $gray-1;
+                margin-right: 8px;
+            }
+
+            select {
+                width: 222px;
+                height: 40px;
+                border-radius: 5px;
+                padding-left: 16px;
+                border: 1px solid rgb(187, 187, 187);
+                appearance: none;
+                background: url(../../assets/img/arrow_select.svg) no-repeat right 10px top 50%;
+            }
+        }
+
+        .ofertasDia_produtos {
+            width: 904px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+.ofertasDia_container_outras-ofertas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+    .ofertasDia_outras-ofertas {
+        width: 592px;
+        height: 260px;
+        background-color: #FFE1C6;
+    }
+}
