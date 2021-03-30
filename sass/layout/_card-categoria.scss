@@ -20,7 +20,6 @@
     }
 
     &:hover {
-      transform: scale(1.03);
       background-color: $orange;
       box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.3);
       
@@ -29,7 +28,7 @@
       }
 
       .hover-categoria-sugerida {
-        fill: white;
+        stroke: white;
       }
     }
   }
