@@ -414,13 +414,12 @@ nav {
       color: #8D8C8C;
       margin-top: 16px; }
     .card-categoria-link .card_categoria:hover {
-      transform: scale(1.03);
       background-color: #FD7E02;
       box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.3); }
       .card-categoria-link .card_categoria:hover h5 {
         color: white; }
       .card-categoria-link .card_categoria:hover .hover-categoria-sugerida {
-        fill: white; }
+        stroke: white; }
 
 #promo-top {
   background-color: #f3f3f3;
@@ -534,6 +533,9 @@ nav {
     justify-content: space-between; }
     .categorias-sugeridas .container-categorias-sugeridas .container-box-categorias-sugeridas a {
       margin-bottom: 32px; }
+      .categorias-sugeridas .container-categorias-sugeridas .container-box-categorias-sugeridas a h5 {
+        width: 120px;
+        text-align: center; }
 
 .sobre-comercio-livre {
   padding-top: 80px;
