@@ -1406,3 +1406,63 @@ nav {
     width: 592px;
     height: 260px;
     background-color: #FFE1C6; }
+
+.supermercado_banner {
+  background: url(../../assets/img/banner_supermercado.png) no-repeat center center #52C148;
+  width: 100%;
+  height: 200px; }
+  .supermercado_banner h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    padding-top: 54px;
+    margin-left: 64px; }
+  .supermercado_banner p {
+    font-size: 14px;
+    color: white;
+    margin-left: 140px;
+    margin-top: 20px;
+    width: 240px;
+    line-height: 150%; }
+
+.supermercado_main .supermercado_container-departamento-conteudo h2 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #6B6B6B;
+  margin-top: 64px;
+  text-align: center; }
+
+.supermercado_main .supermercado_container-departamento-conteudo .supermercado_container-departamento {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .supermercado_main .supermercado_container-departamento-conteudo .supermercado_container-departamento .supermercado_departamento {
+    width: 384px;
+    height: 140px;
+    margin-top: 32px; }
+    .supermercado_main .supermercado_container-departamento-conteudo .supermercado_container-departamento .supermercado_departamento a {
+      text-decoration: none; }
+      .supermercado_main .supermercado_container-departamento-conteudo .supermercado_container-departamento .supermercado_departamento a:hover img {
+        transition: 0.2s;
+        box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2);
+        transform: scale(1.02); }
+
+.supermercado_main .supermercado_banner-meio {
+  margin-top: 80px;
+  width: 100%;
+  height: 200px;
+  background: url(../../assets/img/supermercado_banner-meio.png) no-repeat center center; }
+
+.supermercado_main .supermercado_container_promocoes h2 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 300;
+  color: #6B6B6B;
+  margin-top: 64px;
+  text-align: center; }
+
+.supermercado_main .supermercado_container_promocoes .supermercado_container-produtos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px; }
