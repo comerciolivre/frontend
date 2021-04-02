@@ -1,0 +1,34 @@
+.menu_minha_conta_deslogado {
+    width: 165px;
+    height: 104px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 8px 35px 0 rgba(64, 0, 87, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 14px 0 14px 24px;
+
+    .menu_minha_conta_deslogado_item {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            color: $gray-2;
+            font-weight: 700;
+            transition: 0.2s ease;
+            padding: 5%;
+
+            &:hover {
+                color: $orange-dark;
+            }
+        }
+
+        &:nth-child(1) {
+            a {
+                font-size: 24px;
+            }
+        }
+    }
+}
