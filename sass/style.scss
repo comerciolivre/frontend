@@ -1,32 +1,32 @@
-
 // base
-@import 'base/reset.scss';
-@import 'base/tipografia';
+// @import "base/reset";
+@import "base/tipografia";
 
 // resumo
-@import 'resumo/function';
-@import 'resumo/mixin';
-@import 'resumo/variables';
+// @import "resumo/function";
+@import "resumo/mixin";
+@import "resumo/variables";
 
 // componentes
-@import 'componentes/button';
+@import "componentes/button";
+@import "componentes/dropdown";
 
 // layout
-@import 'layout/grid';
-@import 'layout/forms';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/navegacao';
-@import 'layout/card';
-@import 'layout/card-categoria';
+@import "layout/container";
+@import "layout/forms";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/navegacao";
+@import "layout/card";
+@import "layout/card-categoria";
 
 // paginas
-@import 'paginas/home';
-@import 'paginas/login';
-@import 'paginas/cadastrarConta';
-@import 'paginas/lojas_oficiais';
-@import 'paginas/cadastrarProduto';
-@import 'paginas/contato';
-@import 'paginas/pesquisa';
-@import 'paginas/ofertas_dia';
-@import 'paginas/supermercado';
+@import "paginas/home";
+@import "paginas/login";
+@import "paginas/cadastrarConta";
+@import "paginas/lojas_oficiais";
+@import "paginas/cadastrarProduto";
+@import "paginas/contato";
+@import "paginas/pesquisa";
+@import "paginas/ofertas_dia";
+@import "paginas/supermercado";

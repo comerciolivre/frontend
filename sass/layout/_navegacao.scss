@@ -3,31 +3,33 @@ nav {
   width: 100%;
   background-color: $purple;
 
-  ul {    
+  ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
 
-    li{
-
-      a {
+    li {
+      a,
+      span {
         text-decoration: none;
         padding: 14px;
         color: white;
         line-height: 54px;
         font-size: 15px;
+        cursor: pointer;
 
         &:hover {
           border-bottom: 4px solid $orange;
         }
       }
-      
+
       &:nth-child(1) {
         margin-right: 24px;
-        
-        a {
+
+        a,
+        span {
           font-weight: 500;
           font-size: 18px;
 

@@ -1,5 +1,7 @@
 #head-main {
   height: 148px;
+  padding-left: 30px;
+  padding-right: 30px;
   display: flex;
   align-items: center;
 
@@ -14,7 +16,7 @@
       height: 72px;
     }
 
-    input[type=text] {
+    input[type="text"] {
       border: solid 1px $orange;
       border-radius: 5px;
       width: 176px;
@@ -23,20 +25,20 @@
       margin-top: 8px;
     }
   }
-  
+
   .busca {
     display: flex;
     align-items: center;
 
-    input[type=text] {
-      background-color: #FBE1C8;
+    input[type="text"] {
+      background-color: #fbe1c8;
       border: none;
       border-radius: 5px 0 0 5px;
       width: 476px;
       height: 44px;
       padding-left: 20px;
       margin-left: 32px;
-      
+
       &::placeholder {
         color: $orange-dark;
         font-size: 14px;
